@@ -1,6 +1,6 @@
 # 幽梦个人助手
 
-![版本](https://img.shields.io/badge/版本-1.1.0-blue)
+![版本](https://img.shields.io/badge/版本-1.0.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.7+-green)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-orange)
 ![许可证](https://img.shields.io/badge/许可证-MIT-yellow)
