@@ -1,21 +1,36 @@
-# Security Policy
+# 安全策略
 
-## Supported Versions
+## 支持的版本
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+| 版本 | 支持状态 |
+| --- | --- |
+| 1.0.x | :white_check_mark: 支持 |
+| < 1.0 | :x: 不支持 |
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## 报告漏洞
 
-## Reporting a Vulnerability
+如果您发现幽梦个人助手存在安全漏洞，请通过以下方式报告：
 
-Use this section to tell people how to report a vulnerability.
+1. **提交 Issue**：在 [Issues](../../issues) 页面提交，标题请以 `[安全]` 开头
+2. **私信联系**：如果漏洞较为敏感，请通过 GitHub 私信联系维护者
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+### 响应时间
+
+- 我们会在 **7 个工作日内** 确认收到报告
+- 漏洞评估和修复时间视严重程度而定
+
+### 安全范围
+
+本项目为 **本地桌面应用**，以下为关注的安全领域：
+
+- 本地数据存储安全（SQLite 数据库）
+- 配置文件敏感信息保护
+- 依赖库漏洞
+
+### 不在范围内
+
+- 需要物理访问用户计算机的攻击
+- 社会工程学攻击
+- 拒绝服务攻击（本地应用）
+
+感谢您帮助提升幽梦个人助手的安全性！
